@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-    class Figura
+    class Figure
     {
         protected List<Point> pList;
 
-        public void Draw()
+        public virtual void Draw()
         {
             foreach (Point p in pList)
             {
